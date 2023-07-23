@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* head */
+.text-orange{
+    color: #F17228;
+}
+.btn-orange{
+   background-color: #F17228;
+}
+.navbar-brand:hover{
+    color: #F17228;
+}
+.txt-search{
+    width: 0px;
+}
+.main-search:hover > .txt-search{
+    width: 120px;
+}
+.shadow-sm{
+    
+    box-shadow: 0 0.3rem 0.4rem rgba(255, 183, 0, 0.938)!important;
+   
+}
+.header{
+    background-color: #FFB20E;
+    width: 100%;
+    height: auto;
+}
+.btn.active{
+   background-color: #f172282b;
+   color: #F17228 !important;
+}
+
+.btn-success-1{
+    background-color: var(--theme-success, #b8f381);
+}
+.bg-orange-1{
+    background-color: #f172282b;
+}
+.btn-linear{
+    background-color: #FF7A7A;
+}
+.text-linear{
+    color: #ff7a7a;
+}
+.location{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -65px;
+}
+
+.flash-deals{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.discount{
+border-radius: 0px 32px 0px 0px;
+height: auto;
+position: absolute;
+bottom: 82px;
+}
+.work{
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) 0%, rgba(253, 237, 202, 0.00) 100%);
+    width: 100%;
+    height: auto;
+    margin-top: 80px;  
+}
+.populer-item{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next{
+    background-color: white !important;
+    position: absolute;
+    top: 30%;
+
+}
+.owl-nav .owl-prev{
+    left: 0;
+}
+.owl-nav .owl-next{
+    right: 0;
+}
+.owl-nav { display: block !important; }
+
+.owl-carousel0{
+    padding-left: 65px;
+    padding-right: 50px;
+}
+
+.owl-carousel1{
+    margin-top: 80px;
+    padding-left: 65px;
+    padding-right: 50px;
+}
+.featured-restaurant{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+
+.featured-discount{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+   
+}
+
+.search-food{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    background-color: #FEFAF1;
+}
+
+.flash-deals{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    overflow-x: hidden;
+}
+.best-deals{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    background-image: url(/img/best-deals-bg.png);
+    background-size: cover;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: var(--theme-gray-900, #212121);
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+#newsletter1{
+    background-color: var(--theme-gray-800, #424242);
+}
